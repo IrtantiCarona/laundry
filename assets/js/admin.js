@@ -239,7 +239,7 @@ $('#confirm-yes').click(function(event) {
 				});
 	  	});//end check array
 		$('#modal-confirm').modal('hide');	
-		$('#modal-msg').find('#msg-body').text('Deleted Successfully!');	
+		$('#modal-msg').find('#msg-body').text('Berhasil dihapus!');	
 		$('#modal-msg').modal('show');	
 	}else if(confirmType == 'claim-laundry'){
 		$('input[type=checkbox]:checked').each(function(index) {

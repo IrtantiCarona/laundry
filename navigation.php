@@ -10,7 +10,7 @@
     <li class="treeview">
       <a href="laundrytype.php">
         <i class="fa fa-th-list"></i>
-        <span>Laundry Type</span>
+        <span>Jenis Laundry</span>
       </a>
     </li>
 

@@ -77,7 +77,7 @@
           <!-- Default box -->
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">Laundry Type</h3>
+              <h3 class="box-title">Jenis Laundry</h3>
               <div class="box-tools pull-right">
                 <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
                 <button class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
@@ -98,9 +98,9 @@
 
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
+          <b>Version</b> 1.0
         </div>
-        <strong>Copyright &copy; 2016-2017 <a href="http://www.google.com">Laundry Shop</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2024 <a href="http://www.google.com">Laundry Shop</a>.</strong> All rights reserved.
       </footer>
 
       <div class="control-sidebar-bg"></div>

@@ -3,7 +3,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title text-danger">Are you sure?</h4>
+				<h4 class="modal-title text-danger">Apakah Anda yakin</h4>
 			</div>
 			<div class="modal-body">
 				<div align="center">
@@ -13,11 +13,11 @@
 							</div>
 						</strong>
 						<input type="hidden" id="confirm-type" value="null">
-						<button id="confirm-yes" type="button" class="btn btn-default btn-lg" >Yes
+						<button id="confirm-yes" type="button" class="btn btn-default btn-lg" >Ya
 							<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 						</button>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<button type="button" class="btn btn-default btn-lg" data-dismiss="modal" >No
+						<button type="button" class="btn btn-default btn-lg" data-dismiss="modal" >Tidak
 							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 						</button>	
 				</div>

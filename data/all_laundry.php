@@ -9,12 +9,12 @@ $laundries = $laundry->all_laundry();
             <thead>
                 <tr>
                     <th></th>
-                    <th>Customer Name</th>
-                    <th><center>Priority #</center></th>
-                    <th><center>Weight</center></th>
-                    <th><center>Type</center></th>
-                    <th><center>Date Received</center></th>
-                    <th><center>Amount</center></th>
+                    <th>Nama Pembeli</th>
+                    <th><center>Prioritas #</center></th>
+                    <th><center>Berat</center></th>
+                    <th><center>Tipe</center></th>
+                    <th><center>Diterima</center></th>
+                    <th><center>Jumlah</center></th>
                     <th><center>Action</center></th>
                 </tr>
             </thead>
@@ -30,7 +30,7 @@ $laundries = $laundry->all_laundry();
                     <td><?= $l['laun_weight']; ?></td>
                     <td><?= $l['laun_type_desc']; ?></td>
                     <td><?= $l['laun_date_received']; ?></td>
-                    <td><?= '₱ '.number_format($amount, 2); ?></td>
+                    <td><?= 'Rp '.number_format($amount, 2); ?></td>
                     <td>
                         <button onclick="editLaundry('<?= $l['laun_id']; ?>')" type="button" class="btn btn-warning btn-xs">
                            Edit

@@ -34,7 +34,7 @@ if(isset($_GET['date'])){
   <body>
   	
  <center>
-	<h1>Daily Sales Report</h1>
+	<h1>Report Penjualan Harian</h1>
  	<h2>as of</h2>
  	<h3><?= $date; ?></h3>
  </center>
@@ -43,8 +43,8 @@ if(isset($_GET['date'])){
         <table id="myTable-report" class="table table-bordered table-hover table-striped">
             <thead>
                 <tr>
-                    <th>Customer Name</th>
-                    <th><center>Type</center></th>
+                    <th>Nama Pembeli</th>
+                    <th><center>Tipe</center></th>
                     <th><center>Laundry Received</center></th>
                     <th><center>Date Paid</center></th>
                     <th><center>Amount</center></th>
@@ -61,7 +61,7 @@ if(isset($_GET['date'])){
 	                    <td><?= $r['sale_type_desc']; ?></td>
 	                    <td><?= $r['sale_laundry_received']; ?></td>
 	                    <td><?= $r['sale_date_paid']; ?></td>
-	                    <td><?= '₱ '.number_format($r['sale_amount'], 2); ?></td>
+	                    <td><?= 'Rp '.number_format($r['sale_amount'], 2); ?></td>
 	                </tr>
 	            <?php endforeach; ?>
             </tbody>
@@ -70,7 +70,7 @@ if(isset($_GET['date'])){
 	            	<td></td>
 	            	<td></td>
 	            	<td align="right"><strong>TOTAL:</strong></td>
-	            	<td align="center"><strong><?= '₱ '.number_format($total,2); ?></strong></td>
+	            	<td align="center"><strong><?= 'Rp '.number_format($total,2); ?></strong></td>
 	            </tr>
         </table>
 </div>

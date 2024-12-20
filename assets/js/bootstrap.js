@@ -39,7 +39,7 @@ if (typeof jQuery === 'undefined') {
     $(el).on('click', dismiss, this.close)
   }
 
-  Alert.VERSION = '3.3.5'
+  Alert.VERSION = '1.0'
 
   Alert.TRANSITION_DURATION = 150
 
@@ -135,7 +135,7 @@ if (typeof jQuery === 'undefined') {
     this.isLoading = false
   }
 
-  Button.VERSION  = '3.3.5'
+  Button.VERSION  = '1.0'
 
   Button.DEFAULTS = {
     loadingText: 'loading...'
@@ -494,7 +494,7 @@ if (typeof jQuery === 'undefined') {
     $(element).on('click.bs.dropdown', this.toggle)
   }
 
-  Dropdown.VERSION = '3.3.5'
+  Dropdown.VERSION = '1.0'
 
   function getParent($this) {
     var selector = $this.attr('data-target')

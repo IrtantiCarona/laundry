@@ -19,25 +19,25 @@ $db->Disconnect();
 					<input type="hidden" id="laun-type">
 					<input type="hidden" id="laun-id">
 				  <div class="form-group">
-				    <label class="control-label col-sm-3" for="">Customer Name:</label>
+				    <label class="control-label col-sm-3" for="">Nama Pembeli:</label>
 				    <div class="col-sm-9">
 				      <input type="text" class="form-control" id="customer" placeholder="Enter customer name" required>
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <label class="control-label col-sm-3" for="">Priority #:</label>
+				    <label class="control-label col-sm-3" for="">Prioritas Dalam Hari:</label>
 				    <div class="col-sm-9">
 				      <input type="number" class="form-control" id="priority" placeholder="Enter priority number" required>
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <label class="control-label col-sm-3" for="">Weight:</label>
+				    <label class="control-label col-sm-3" for="">Berat:</label>
 				    <div class="col-sm-9">
 				      <input type="number" step="any" class="form-control" id="weight" placeholder="Enter laundry weight" required>
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <label class="control-label col-sm-3" for="">Type:</label>
+				    <label class="control-label col-sm-3" for="">Tipe:</label>
 				    <div class="col-sm-9">
 					    <select class="btn btn-default" id="newlaun-type">
 					    	<?php foreach($types as $t): ?>
@@ -48,7 +48,7 @@ $db->Disconnect();
 				  </div>
 				  <div class="form-group"> 
 				    <div class="col-sm-offset-3 col-sm-9">
-				      <button type="submit" class="btn btn-primary">Save</button>
+				      <button type="submit" class="btn btn-primary">Simpan</button>
 				    </div>
 				  </div>
 				</form>
