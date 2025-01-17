@@ -1,5 +1,5 @@
 # laundry management system
-Dibuat oleh Irtanti Carona untuk keperluan tugas kelompok 
+Dibuat oleh Irtanti Carona untuk keperluan tugas mandiri
 ---
 ## Tech Stack:
 
