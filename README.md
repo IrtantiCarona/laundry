@@ -1,7 +1,7 @@
 # laundry management system
-
+Dibuat oleh Irtanti Carona untuk keperluan tugas kelompok 
 ---
-## Using Tech:
+## Tech Stack:
 
 * Php
 * JavaScript
@@ -14,24 +14,13 @@
 
 
 ---
-#### Watch Demo : https://www.youtube.com/watch?v=ReipY-Eg9YY
----
-## Features
-
-*	Add/delete/claim customer details with priority, weight, and types 
-*	You can add laundry type and amount
-*	You can generate of whole or specific report
-*	You can change password and can logout
-
 
 ---
+## Fitur
 
+* Sistem login admin
+* Manajemen pelanggan
+* Pencatatan transaksi
+* Laporan keuangan
+* Pengelolaan layanan 
 
-## Author Info
-- Linkedin- [@Mohaiminur](https://www.linkedin.com/in/mohaiminur/)
-- Youtube- [@Mohaiminur](https://www.youtube.com/channel/UC5MlwVt5vXtpHvgDHxbgqmw)
-- Facebook- [@Mohaiminur](https://facebook.com/mohaiminur404)
-- Twitter - [@Mohaiminur](https://twitter.com/mohaiminur404)
-- Website - [Mohaiminur](https://mohaiminur.ml)
-
----
